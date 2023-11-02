@@ -1,0 +1,67 @@
+
+.first-name,.last-name{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width:100px;
+    display: inline-block;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+
+
+    
+}
+
+.first-last-name{
+   margin-bottom: 10px;
+}
+
+.first-last-name{
+
+}
+
+.email{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width:222px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+.button-signup{
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width:240px;
+    display: block;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.button-signup:hover{
+    opacity:0.7;
+
+}
+.button-signup:active{
+    opacity:0.5;
+}
+
+.whole{
+    margin-top: 40px;
+    margin-left: 40px;
+}

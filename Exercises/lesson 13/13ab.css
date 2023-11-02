@@ -1,0 +1,50 @@
+.flexbox{
+  display:flex;
+  height: 50px;
+}
+.flex1{
+  display:flex;
+  width:100px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: center;
+}
+.flex2{
+  width:200px;
+  background-color: lightblue;
+}
+.p1{
+  background-color: black;
+  color: white;
+}
+
+.flexbox2{
+  margin-top: 50px;
+  display:flex;
+  height:50px;
+}
+.lightpink{
+   width:100px;
+   background-color: lightpink;
+}
+.lightblue{
+  width:200px;
+  background-color: lightblue;
+}
+.lightblue{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.firstcolumn{
+  display:flex;
+}
+.row2-flex{
+  display:flex;
+  align-items: center;
+}
+.row2{
+  background-color: black;
+  color: white;
+}

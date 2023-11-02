@@ -1,0 +1,47 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-pic{
+    width: 45px;
+    height:45px;
+    border-radius: 25px;
+    vertical-align: middle;
+
+}
+
+.textbox{
+    vertical-align: middle;
+    border:none;
+    width: 250px;
+    font-size: 15px;
+    outline: none;   
+}
+button{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer;
+}
+button:hover{
+    opacity:0.7;
+}
+button:active{
+    opacity:0.5;
+}
+
+.tweet-box{
+      margin-top: 15px;
+      border:none;
+      margin-left: 10px;
+      width: 380px;
+      padding: 5px 8px 5px 8px;
+      border-radius: 5px;
+      display:block;
+      box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+      
+}

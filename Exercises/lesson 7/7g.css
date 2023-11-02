@@ -1,0 +1,28 @@
+.img{
+    height:40px;
+    width: 40px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.textbox{
+    font-size: 13px;
+    border: none;
+    width:180px;
+    vertical-align: middle;
+}
+button{
+    color:white;
+    background-color: rgb(0, 145, 255);
+    font-weight: bold;
+    border: none;
+    padding:5px 10px 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.twitter-box{
+    padding: 10px;
+
+    display: inline-block;
+}

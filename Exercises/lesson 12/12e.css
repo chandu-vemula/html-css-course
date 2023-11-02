@@ -1,0 +1,36 @@
+div{
+  font-family: arial;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  width:300px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 10px;
+  border-color: grey;
+  border-radius: 5px;
+  height:100px;
+  justify-content: space-between;
+  
+}
+.flexbox1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifications{
+   padding: 2px 10px;
+   border-style: solid;
+   border-radius: 15px;
+   background-color: rgb(0, 98, 255);
+   color: white;
+   font-weight: 500;
+   cursor: pointer;
+  }
+.notifications:hover{
+     opacity: 0.7;
+}
+.notifications:active{
+    opacity: 0.5;
+}

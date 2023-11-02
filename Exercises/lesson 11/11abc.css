@@ -1,0 +1,40 @@
+body{
+  padding-bottom: 1000px;
+  margin: 0;
+  background-color:#1e293b;
+}
+.grid1{
+  display:grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 30px;
+}
+
+.lightblue1{
+  background-color: lightblue;
+}
+
+.lightpink1{
+  background-color: lightpink;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 30px;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+}
+.lightpink3{
+  background-color: pink;
+  height: 150px;
+}
+.lightblue3{
+  background-color: lightblue;
+  height: 150px;
+}

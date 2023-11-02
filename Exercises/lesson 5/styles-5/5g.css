@@ -1,0 +1,23 @@
+p{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    width: 500px;
+}
+.title-website{
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom:10px;
+}
+.username1{
+    color:grey;
+    font-weight: 400;
+}
+.description{
+    margin-bottom: 10px;
+    
+}
+.username2{
+    color:blue;
+    cursor: pointer;
+}

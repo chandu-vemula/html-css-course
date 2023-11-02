@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practise</title>
+    <style>
+      img{
+        Display: block;
+        width: 300px;
+      }
+      
+      .video-stats, .video-author{
+        display: inline-block;
+      }
+     
+      
+      .search-bar{
+        display: block;
+      }
+      .video-preview{
+        display: inline-block;
+        width: 300px;
+        vertical-align:top;
+        margin-right: 15px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <input class="search-bar " type="text" placeholder="Search">
+  <div class="video-preview">
+    <img src="thumbnails/thumbnail-1.webp">
+    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai</p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+  </div>
+
+  <div class="video-preview">
+    <img src="thumbnails/thumbnail-2.webp">
+    <p class="video-title">Try not to laugh #9</p>
+    <p class="video-author">Marquil</p>
+    <p class="video-stats">90M views &#183; 4 months ago</p>
+  </div>
+
+  </body>
+</html>
+
+<!--
+  1. A paragraph <p> by default is a block element
+     A division <div> by default is a block element 
+      <div> = containers
+        block elements = take up the entire line in their container
+     block elements: takes up entire line
+  2. an inline block elemnt takes as much space as they need
+      ex: input and image element
+  3. inline elements are <strong> <spun>
+
+Display: inline-block; 1. creates a space between two divs, you can check this by changing the backgroud color of the two div layout
+
+
+to tackle this we use grid:
+
+display: grid;
+grid-templete-column: 100px 100px;
+grid-templete-column: 100px 1fr;
+
+grids are always vertically aligned unlike layouts
+
+
+-->
